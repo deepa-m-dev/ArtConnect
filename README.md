@@ -1,6 +1,6 @@
 # 🎨 ArtConnect
 
-ArtConnect is a **cloud-based art-sharing and exhibition platform** built with **Spring Boot**, **MongoDB Atlas**, and **Cloudinary**.  
+ArtConnect is a **cloud-based art-sharing and exhibition platform** built with **Spring Boot**, **MongoDB Atlas**,**Thymeleaf**, **Boostrap** and **Cloudinary**.  
 It empowers artists to showcase their artwork online and enables buyers and art lovers to explore and connect through a modern, visual experience.
 
 ---
@@ -33,24 +33,10 @@ It empowers artists to showcase their artwork online and enables buyers and art 
 
 ## ⚙️ Project Setup (Local)
 
-### 1️⃣ Clone the Repository
-    ```bash
-     git clone https://github.com/<your-username>/ArtConnect.git
+### Clone the Repository
+
+     git clone https://github.com/deepa-m-dev/ArtConnect.git
      cd ArtConnect
-
-###2️⃣ Configure Application Properties
-   In src/main/resources/application.properties, set up your MongoDB Atlas and Cloudinary credentials:
-    
-    #MongoDB Atlas
-    spring.data.mongodb.uri=mongodb+srv://<username>:<password>@<cluster-url>/artconnect?retryWrites=true&w=majority
-
-    #Cloudinary
-    cloudinary.cloud_name=your_cloud_name
-    cloudinary.api_key=your_api_key
-    cloudinary.api_secret=your_api_secret
-
-    # Server Port
-    server.port=8080
 
 
 ###▶️ Run the Application
@@ -67,39 +53,62 @@ Then open:
 
 ###🗂️ Project Structure
 ArtConnect/
-├── src/main/java/com/example/ArtConnect
-│   ├── controller/         # Controllers (Artworks, Login, etc.)
-│   ├── model/              # User & Artwork data models
-│   ├── repository/         # MongoDB Repositories
-│   └── ArtConnectApplication.java
-├── src/main/resources/
-│   ├── static/             # CSS, JS, images
-│   ├── templates/          # Thymeleaf HTML templates
-│   └── application.properties
-└── pom.xml
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/ArtConnect/
+│   │   │   ├── controller/      # Spring MVC Controllers
+│   │   │   ├── model/           # MongoDB data models (Artwork, User, Order)
+│   │   │   ├── repository/      # MongoDB repositories
+│   │   │   ├── service/         # Services (ArtworkService, OrderService, CloudinaryService)
+│   │   │   └── ArtConnectApplication.java
+│   │   └── resources/
+│   │       ├── static/
+│   │       │   ├── css/style.css
+│   │       │   └── js/main.js
+│   │       ├── templates/       # Thymeleaf templates
+│   │       │   ├── fragments/header.html
+│   │       │   ├── fragments/footer.html
+│   │       │   ├── home.html
+│   │       │   ├── gallery.html
+│   │       │   ├── artist-dashboard.html
+│   │       │   ├── buyer-dashboard.html
+│   │       │   ├── artwork-details.html
+│   │       │   ├── upload-artwork.html
+│   │       │   ├── login.html
+│   │       │   └── register.html
+│   │       └── application.properties
+├── pom.xml
+└── README.md
 
-###☁️ Deployment Steps
-Generate a .jar file
-mvn clean package
+## Usage
 
+- **Home Page:** Click "Explore Gallery" on the landing page to browse artworks.
 
-The .jar file will be located in:
+- **Register/Login:** Use the Register or Login buttons in the header to create an account or log in.
 
-target/ArtConnect-0.0.1-SNAPSHOT.jar
+- **Gallery:** Click Gallery in the navigation bar to browse all artworks. Use tag filter buttons to refine results.
 
-Deploy Options
+- **Artist Dashboard:** click Artist in the navbar to access your dashboard and Upload New Artwork using the button.
 
-Render / Railway / AWS / Azure / Heroku
+- **Buyer Dashboard:** click Buyer in the navbar to view artworks and Add to Cart / View Details via the buttons.
 
-Connect your GitHub repo directly and deploy automatically.
+- **Artwork Details:** Click the View Details button on any artwork to see full details and Buy the artwork.
 
+Screenshots
+Home Page
+
+Gallery
+
+Artist Dashboard
+
+Buyer Dashboard
+
+Upload Artwork
 
 👩‍🎨 Author
 
 Deepa M 
-📧 Email: your-email@example.com
-
-🌐 GitHub: https://github.com/your-username
+🌐 GitHub: https://github.com/deepa-m-dev
 
 
 
