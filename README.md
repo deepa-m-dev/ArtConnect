@@ -140,6 +140,11 @@ ArtConnect/
   <img width="815" height="825" alt="image" src="https://github.com/user-attachments/assets/01aea033-2320-41bd-ad16-1f257d26098e" />
 
 
+## Live Demo
+- Check out the running app here: [ArtConnect](https://artconnect-1ivy.onrender.com)
+
+
+
 👩‍🎨 Author
 
 <a href="https://github.com/deepa-m-dev">Deepa M </a>
