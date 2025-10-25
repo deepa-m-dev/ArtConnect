@@ -39,7 +39,7 @@ It empowers artists to showcase their artwork online and enables buyers and art 
      cd ArtConnect
 
 
-###▶️ Run the Application
+### ▶️ Run the Application
  To start the Spring Boot application:
  
      mvn spring-boot:run
@@ -52,32 +52,59 @@ Then open:
     http://localhost:8080
 
 ###🗂️ Project Structure
-ArtConnect/
+
+ArtConnect/ 
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/com/example/ArtConnect/
+
 │   │   │   ├── controller/      # Spring MVC Controllers
+
 │   │   │   ├── model/           # MongoDB data models (Artwork, User, Order)
+
 │   │   │   ├── repository/      # MongoDB repositories
+
 │   │   │   ├── service/         # Services (ArtworkService, OrderService, CloudinaryService)
+
 │   │   │   └── ArtConnectApplication.java
+
 │   │   └── resources/
+
 │   │       ├── static/
+
 │   │       │   ├── css/style.css
+
 │   │       │   └── js/main.js
+
 │   │       ├── templates/       # Thymeleaf templates
+
 │   │       │   ├── fragments/header.html
+
 │   │       │   ├── fragments/footer.html
+
 │   │       │   ├── home.html
+
 │   │       │   ├── gallery.html
+
 │   │       │   ├── artist-dashboard.html
+
 │   │       │   ├── buyer-dashboard.html
+
 │   │       │   ├── artwork-details.html
+
 │   │       │   ├── upload-artwork.html
+
 │   │       │   ├── login.html
+
 │   │       │   └── register.html
+
 │   │       └── application.properties
+
 ├── pom.xml
+
 └── README.md
 
 ## Usage
@@ -88,22 +115,13 @@ ArtConnect/
 
 - **Gallery:** Click Gallery in the navigation bar to browse all artworks. Use tag filter buttons to refine results.
 
-- **Artist Dashboard:** click Artist in the navbar to access your dashboard and Upload New Artwork using the button.
+- **Artist Dashboard:** Click Artist in the navbar to access your dashboard and Upload New Artwork using the button.
 
-- **Buyer Dashboard:** click Buyer in the navbar to view artworks and Add to Cart / View Details via the buttons.
+- **Buyer Dashboard:** Click Buyer in the navbar to view artworks and Add to Cart / View Details via the buttons.
 
 - **Artwork Details:** Click the View Details button on any artwork to see full details and Buy the artwork.
 
-Screenshots
-Home Page
-
-Gallery
-
-Artist Dashboard
-
-Buyer Dashboard
-
-Upload Artwork
+ - **Upload Artwork:** Click Upload Artwork button 
 
 👩‍🎨 Author
 
