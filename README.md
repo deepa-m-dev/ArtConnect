@@ -110,23 +110,41 @@ ArtConnect/
 ## Usage
 
 - **Home Page:** Click "Explore Gallery" on the landing page to browse artworks.
+  
+<img width="1920" height="980" alt="00" src="https://github.com/user-attachments/assets/6b55105a-93a8-478c-a82f-3769feebc71f" />
 
 - **Register/Login:** Use the Register or Login buttons in the header to create an account or log in.
 
+  <img width="1920" height="1040" alt="9" src="https://github.com/user-attachments/assets/c9fe2bc8-8a33-414f-9280-3d0cc5455d77" />
+<img width="1920" height="1040" alt="8" src="https://github.com/user-attachments/assets/e252455d-8acc-46ee-b60b-15bcfab7e0a4" />
+
+
 - **Gallery:** Click Gallery in the navigation bar to browse all artworks. Use tag filter buttons to refine results.
+  
+<img width="1920" height="1038" alt="0" src="https://github.com/user-attachments/assets/040154dc-8518-46b7-8eb5-19329e729dfa" />
 
 - **Artist Dashboard:** Click Artist in the navbar to access your dashboard and Upload New Artwork using the button.
+  
+<img width="1920" height="1041" alt="2" src="https://github.com/user-attachments/assets/8e83c469-1134-4a63-a75e-5fabfa9bf502" />
 
 - **Buyer Dashboard:** Click Buyer in the navbar to view artworks and Add to Cart / View Details via the buttons.
+  
+<img width="1920" height="1041" alt="5" src="https://github.com/user-attachments/assets/c4a61428-4f60-435f-b3cb-84e07db8c254" />
 
 - **Artwork Details:** Click the View Details button on any artwork to see full details and Buy the artwork.
 
- - **Upload Artwork:** Click Upload Artwork button 
+  <img width="815" height="825" alt="image" src="https://github.com/user-attachments/assets/01aea033-2320-41bd-ad16-1f257d26098e" />
+
+
+ - **Upload Artwork:** Navigate to Artist Dashboard → Upload New Artwork → Fill details → Submit
+
+<img width="1920" height="1041" alt="2" src="https://github.com/user-attachments/assets/a1e01067-9bee-4996-908e-8f29f771a0d9" />
+
+<img width="1920" height="1041" alt="3" src="https://github.com/user-attachments/assets/63ba19f6-5ae1-4bfc-abcc-6f1ede4b606a" />
 
 👩‍🎨 Author
 
-Deepa M 
-🌐 GitHub: https://github.com/deepa-m-dev
+<a href=" https://github.com/deepa-m-dev" >Deepa M </a>
 
 
 
