@@ -51,7 +51,9 @@ Then open:
 
     http://localhost:8080
 
-###🗂️ Project Structure
+---
+
+## 🗂️ Project Structure
 
 ArtConnect/ 
 
@@ -107,6 +109,8 @@ ArtConnect/
 
 └── README.md
 
+---
+
 ## Usage
 
 - **Home Page:** Click "Explore Gallery" on the landing page to browse artworks.
@@ -139,11 +143,12 @@ ArtConnect/
 
   <img width="815" height="825" alt="image" src="https://github.com/user-attachments/assets/01aea033-2320-41bd-ad16-1f257d26098e" />
 
+---
 
 ## Live Demo
 - Check out the running app here: [ArtConnect](https://artconnect-1ivy.onrender.com)
 
-
+---
 
 👩‍🎨 Author
 
