@@ -13,7 +13,7 @@ It empowers artists to showcase their artwork online and enables buyers and art 
 - 🌥️ **Cloud Storage** – All uploaded images are securely stored and served via Cloudinary.
 - ☁️ **MongoDB Atlas Integration** – Data stored and retrieved from cloud-hosted MongoDB database.
 - 💅 **Modern UI** – Built with Bootstrap, HTML5, CSS3, and Thymeleaf templates.
-- 🔄 **Deployed Anywhere** – Runs smoothly locally or in cloud environments.
+- 🔄 **LLive Deployed App** – Hosted on Render for public access.
 
 ---
 
