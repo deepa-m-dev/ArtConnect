@@ -26,6 +26,7 @@ It empowers artists to showcase their artwork online and enables buyers and art 
 | Database | MongoDB Atlas |
 | Cloud Storage | Cloudinary |
 | Build Tool | Maven |
+| eployment | Render |
 | IDE | Eclipse / IntelliJ IDEA |
 | Version Control | Git + GitHub |
 
