@@ -32,12 +32,12 @@ public class ChatController {
         );
 
         String reply = (String) response.getBody().get("reply");
-        String mood = (String) response.getBody().get("mood");
+    
 
         // return response to frontend
         Map<String, String> result = new HashMap<>();
         result.put("reply", reply);
-        result.put("mood", mood);
+        
         return result;
         
     } 
