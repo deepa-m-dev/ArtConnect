@@ -26,7 +26,7 @@ public class ChatController {
         req.put("message", userMessage);
 
         ResponseEntity<Map> response = restTemplate.postForEntity(
-                "http://localhost:5001/chat",
+                "https://artconnect-chatbot.onrender.com",
                 req,
                 Map.class
         );
