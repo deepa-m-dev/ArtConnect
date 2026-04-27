@@ -1,3 +1,4 @@
+<div th:fragment="footer">
 <footer>
     <div class="container text-center">
     <br>
@@ -5,3 +6,18 @@
         
     </div>
 </footer>
+<div id="chatbot">
+    <div id="chat-toggle" onclick="toggleChat()"><img src="/images/bot.gif" class="bot-avatar"></div>
+
+    <div id="chat-window">
+        <div id="chat-header">Art Assistant 🎨</div>
+        <div id="chat-body"></div>
+
+        <div id="chat-input">
+            <input type="text" id="userInput" placeholder="Ask about art...">
+            <button onclick="sendMessage()">➤</button>
+        </div>
+    </div>
+</div>
+<script src="/js/chatbot.js"></script>
+</div>
