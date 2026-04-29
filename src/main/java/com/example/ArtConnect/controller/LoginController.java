@@ -53,7 +53,7 @@ public class LoginController {
 
         if (user != null && user.getPassword().equals(password)) {
             model.addAttribute("username", user.getUsername());
-            return "redirect:/gallery";
+            return "redirect:/";
         } else {
             model.addAttribute("error", "Invalid username or password");
             return "login";
