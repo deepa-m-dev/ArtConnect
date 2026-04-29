@@ -22,7 +22,7 @@
 }
 
 /* ===== Overlay (important fix) ===== */
-body::after {
+body:not(.login-page)::after {
     content: "";
     position: fixed;
     inset: 0;
