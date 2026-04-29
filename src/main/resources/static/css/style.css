@@ -423,6 +423,32 @@ p, li, td, th, span, label, a {
 }
 
 
+/************* bg image **************/
+
+.bg-container {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+   
+    url('/images/bg.jpg') center/cover no-repeat !important;
+   
+    
+    
+}
+/* Only center the login card */
+.center-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 .bot-avatar:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px rgba(211, 154, 255, 1);
