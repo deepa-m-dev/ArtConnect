@@ -22,7 +22,7 @@
 }
 
 /* ===== Overlay (important fix) ===== */
-body:not(.login-page)::after {
+body::after {
     content: "";
     position: fixed;
     inset: 0;
@@ -439,13 +439,7 @@ p, li, td, th, span, label, a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: 
-		linear-gradient(rgba(13,11,29,0.7), rgba(46,2,73,0.7)),
-		url('/images/bg.jpg') center/cover no-repeat;
-	z-index: -1;
-   
-    
-    
+    background: url('/images/bg.jpg') center/cover no-repeat;
 }
 /* Only center the login card */
 .center-box {
