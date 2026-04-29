@@ -423,6 +423,14 @@ p, li, td, th, span, label, a {
 }
 
 
+.bot-avatar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(211, 154, 255, 1);
+   
+}
+
+
+
 /************* bg image **************/
 
 .bg-container {
@@ -445,13 +453,3 @@ p, li, td, th, span, label, a {
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-.bot-avatar:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 25px rgba(211, 154, 255, 1);
-   
-}
-
