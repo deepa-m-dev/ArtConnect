@@ -415,7 +415,7 @@ p, li, td, th, span, label, a {
     border-radius: 50%;
     object-fit: cover;
 
-    /* glow effect box-shadow: 0 0 15px rgba(157, 78, 221, 0.8);
+    /* glow effect box-shadow: 0 0 15px rgba(157, 78, 221, 0.8); */
 
     /* smooth hover */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
